@@ -43,6 +43,8 @@ print(10 * str(int(var5) + int(var6)))          # yesma chaii var5 given str ho 
 
 #User INput 
 
-print("Enter any number: ") 
-inpNum = input()
-print("You entered: ",inpNum)
+print("Enter any two number: ") 
+inpNum1 = input()               #suru mai input huney bela mai yo str ma input linxa so hamilaii paxi addition garna paryo bhani datatype convert garera int or float ma change garera garnu parney raixa
+inpNum2 = input()
+sum = int(inpNum1) + int(inpNum2)
+print("The sum of your given numbers: ", sum)
