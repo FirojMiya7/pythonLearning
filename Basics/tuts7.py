@@ -48,3 +48,5 @@ inpNum1 = input()               #suru mai input huney bela mai yo str ma input l
 inpNum2 = input()
 sum = int(inpNum1) + int(inpNum2)
 print("The sum of your given numbers: ", sum)
+
+print("Sum of these numbers is" , int(inpNum1) + int(inpNum2))
