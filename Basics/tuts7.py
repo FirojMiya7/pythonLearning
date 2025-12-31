@@ -9,6 +9,14 @@ var4 = var2 + var3
 var7 = var5 + var6
 var8 = int(var5) + int(var6)
 
+"""
+variable data type switch garna ko laagi haami sanga 3 ota function hunxa like string ma xa bhani int ma ligney for example just like the above one
+they are:
+int()
+float()
+str()
+"""
+
 print(var1)
 print(var2)
 print(var3)
