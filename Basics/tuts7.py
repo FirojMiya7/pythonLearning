@@ -28,3 +28,11 @@ print("Sum is ", var8)
 print(type(var1))
 print(type(var2))
 print(type(var3))
+
+
+
+#To print single statements multiple times like loop 
+
+print(10 * "Hello World\n")
+
+print(10 * int(var5) + int(var6))           #10*56+24=>584
