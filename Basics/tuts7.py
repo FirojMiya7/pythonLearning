@@ -1,15 +1,21 @@
 #Variable
 
 var1 = "Hello World"
+var5 = "56"             #yo pani characeter string ho cuz duita double quote ko bhitra lekhiyeko xa ni tw
+var6 = "24"
 var2 = 4
 var3 = 3.14
 var4 = var2 + var3
+var7 = var5 + var6
+var8 = int(var5) + int(var6)
 
 print(var1)
 print(var2)
 print(var3)
 
 print("Sum is ", var4)
+print("Sum is ", var7)              #value aauda out 56 rw 24 aayo cuz duitai yaha character ma thea so char addition bhayesi concatination hunxa
+print("Sum is ", var8)
 
 print(type(var1))
 print(type(var2))
