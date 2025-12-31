@@ -14,7 +14,7 @@ print(var2)
 print(var3)
 
 print("Sum is ", var4)
-print("Sum is ", var7)              #value aauda out 56 rw 24 aayo cuz duitai yaha character ma thea so char addition bhayesi concatination hunxa
+print("Sum is ", var7)              #value aauda output 56 rw 24 aayo cuz duitai yaha character ma thea so char addition bhayesi concatination hunxa
 print("Sum is ", var8)
 
 print(type(var1))
