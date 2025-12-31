@@ -38,3 +38,11 @@ print(10 * "Hello World\n")
 print(10 * int(var5) + int(var6))           #10*56+24=>584
 
 print(10 * str(int(var5) + int(var6)))          # yesma chaii var5 given str ho now yeslaii hamle suru ma int ma convert garxam ani int add hunxa 56 +24 and then tyo convert hunxa again str ma and then multiply with 100
+
+
+
+#User INput 
+
+print("Enter any number: ") 
+inpNum = input()
+print("You entered: ",inpNum)
