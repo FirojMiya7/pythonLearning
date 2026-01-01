@@ -44,3 +44,11 @@ print(numbers)
 #Replace garna ko laagi Insert() funct
 numbers.insert(1,5)         #insert func le chaii euta index ma bhako data or value laii given data le replace garxa where (1,5) means where 1 --> index which neeed to be replaced and second 5 is value jun aaba gayera teii index number ma gayera basxa:
 print(numbers)
+
+#Remove garna ko laagi Remove() function
+numbers.remove(2)           #Yesko bhitra feri direct value j laii hataune ho tesailaii nai mention garinxa aaru ko jasto index haina
+print(numbers)
+
+#Pop funtion le k garxa
+numbers.pop()               #yesle chaii last index ma bhako value laii remove gardinxa
+print(numbers)
