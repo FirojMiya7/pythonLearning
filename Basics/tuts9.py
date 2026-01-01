@@ -41,7 +41,7 @@ numbers.append(65)
 numbers.append(56)
 print(numbers)
 
-#Replace garna ko laagi Insert() funct
+#Replace garna ko laagi Insert() func
 numbers.insert(1,5)         #insert func le chaii euta index ma bhako data or value laii given data le replace garxa where (1,5) means where 1 --> index which neeed to be replaced and second 5 is value jun aaba gayera teii index number ma gayera basxa:
 print(numbers)
 
