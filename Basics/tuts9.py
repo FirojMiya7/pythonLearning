@@ -52,3 +52,16 @@ print(numbers)
 #Pop funtion le k garxa
 numbers.pop()               #yesle chaii last index ma bhako value laii remove gardinxa
 print(numbers)
+
+"""
+Mutable = Can Change / Changeable
+
+Immutable = can not change ?non-changeable
+"""
+
+
+
+tp = (1,2,3)                #small bracket ma deko bhayera values laii yo aaba tupple bhayo and 
+print(tp)
+
+print(tp([1]))              #index 1 ko print hudaina  cuz tupple immutable hunxa so change hudaina error show garxa..
