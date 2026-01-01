@@ -30,3 +30,17 @@ numbers.sort()
 numbers.reverse()           #REVERSE garney Function ho
 print(numbers)              #line 21 le gareko sort func le sort garxa ani teii sorted value laii reverse funtion le chaii reverse garera ultari print gari dekhaunxa
 
+#Max and Min Number Print
+print(max(numbers))
+print(min(numbers))
+
+
+#Append or kunai extra elemnt in the str array 
+numbers.append(6)
+numbers.append(65)
+numbers.append(56)
+print(numbers)
+
+#Replace garna ko laagi Insert() funct
+numbers.insert(1,5)         #insert func le chaii euta index ma bhako data or value laii given data le replace garxa where (1,5) means where 1 --> index which neeed to be replaced and second 5 is value jun aaba gayera teii index number ma gayera basxa:
+print(numbers)
