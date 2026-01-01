@@ -64,4 +64,12 @@ Immutable = can not change ?non-changeable
 tp = (1,2,3)                #small bracket ma with coma value deko bhayera values laii yo aaba tupple bhayo and if coma nadeko bhaye tupple huntheana lah
 print(tp)
 
-print(tp([1]))              #index 1 ko print hudaina  cuz tupple immutable hunxa so change hudaina error show garxa..
+#print(tp([1]))              #index 1 ko print hudaina  cuz tupple immutable hunxa so change hudaina error show garxa..
+
+
+#Swapping
+a=1
+b=4
+a,b = b,a
+print("a = ", a, "b = ", b)
+
