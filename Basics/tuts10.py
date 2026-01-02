@@ -20,7 +20,12 @@ print("\n",d2)
 #print(d2["Sushil","Feroz"])         #yedi duita ko chaiyo bhani yesari wrong hunxa error show garxa baru instead aarko use gara method.
 
 #Multiple from dictionary
-print("\nFeroz eat:", d2["Feroz"],"\nSushil eat:", d2["Sushil"],"\nSamyam eat:", d2["Samyam"], "\nTrishan eat:",d2["Trishan"])
+print("\nFeroz eat:", d2["Feroz"],
+      "\nSushil eat:", d2["Sushil"],
+      "\nSamyam eat:", d2["Samyam"], 
+      "\nTrishan eat:",d2["Trishan"])
 
 #Dictionary ko Dictionary
-print("\n",d2["Suhan"])
+print("\n",d2["Suhan"])                #whole dictionary of suhan naii print gardinxa aahile laii..
+print("\nSuhan ko breakfast:",d2["Suhan"]["B"],             #yesma pani xutta xuttai naii print garna parxa
+      "\nSuhan ko Lunch:",d2["Suhan"]["L"])                
