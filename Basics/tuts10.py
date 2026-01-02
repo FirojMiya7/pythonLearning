@@ -29,3 +29,4 @@ print("\nFeroz eat:", d2["Feroz"],
 print("\n",d2["Suhan"])                #whole dictionary of suhan naii print gardinxa aahile laii..
 print("\nSuhan ko breakfast:",d2["Suhan"]["B"],             #yesma pani xutta xuttai naii print garna parxa
       "\nSuhan ko Lunch:",d2["Suhan"]["L"])                
+5:17
