@@ -21,3 +21,6 @@ print("\n",d2)
 
 #Multiple from dictionary
 print("\nFeroz eat:", d2["Feroz"],"\nSushil eat:", d2["Sushil"],"\nSamyam eat:", d2["Samyam"], "\nTrishan eat:",d2["Trishan"])
+
+#Dictionary ko Dictionary
+print("\n",d2["Suhan"])
