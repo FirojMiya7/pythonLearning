@@ -14,6 +14,11 @@ d2 = {"Feroz":"Pizza", "Sushil":"Burger",
                "L":"Bhaat",
                "D":"Chicken"}}
 
+#Self update or Addition and deletion in dictionary
+d2["Aarambha"] = "Cup-Cake"
+d2[340] = "Junk Food"
+
+
 print(d2["Feroz"])
 print("Feroz eat:", d2["Feroz"])
 print("\n",d2)
@@ -28,5 +33,12 @@ print("\nFeroz eat:", d2["Feroz"],
 #Dictionary ko Dictionary
 print("\n",d2["Suhan"])                #whole dictionary of suhan naii print gardinxa aahile laii..
 print("\nSuhan ko breakfast:",d2["Suhan"]["B"],             #yesma pani xutta xuttai naii print garna parxa
-      "\nSuhan ko Lunch:",d2["Suhan"]["L"])                
-5:17
+      "\nSuhan ko Lunch:",d2["Suhan"]["L"])     
+
+#self update wala ko laagi addition deletion ko example
+print(d2)                              #Aarambha ko pani name include bhayera aayo ani 340 ko pani aayo but
+
+# aaba chaii tyo hero banyo 340 wala dictinary solti aaba teslai chaii delete garddey mah tero output ma dekhina chahanna bhanyo now,
+
+del d2[340]                              #yesley delete gardiyo yo dictinary lai dictinary ma tw xa but output ma show hudaina after this command or upcoming lines
+print(d2)
