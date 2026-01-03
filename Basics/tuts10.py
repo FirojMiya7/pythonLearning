@@ -61,4 +61,5 @@ print("\n",d2.get("Feroz"))          #Feroz ko value matra print garxa. -->yo tw
 
 # aaba dictionary update garna ko laagi update() func kasari use garney
 
-d2.update({"Sachin":"Coffee"})
+d2.update({"Sachin":"Coffee"})       #ki tw update() use garney or line 19 ma jastaii manually update garney duitaii same naii ho
+print("\n",d2)                       #yaha chai sachin pani add bhaye or update bhaye
