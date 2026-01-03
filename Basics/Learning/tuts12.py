@@ -29,3 +29,6 @@ print(type(s1))                                     #yesle type -> set output di
 print(len(s1))                                      #yesle length of s1 -> 5 output dinxa
 print(min(s1))                                      #yesle set ma bhako minimum element or smallest value dinxa-> 0 output
 print(max(s1))                                      #yesle maximum or biggest element value -> 4 output dinxa
+
+s3 = s1.difference(s)                               #s1 set ma s set ko value subtract gariyo ani -> 0,2,4 output aayo
+print(s3)
