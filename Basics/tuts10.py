@@ -63,3 +63,8 @@ print("\n",d2.get("Feroz"))          #Feroz ko value matra print garxa. -->yo tw
 
 d2.update({"Sachin":"Coffee"})       #ki tw update() use garney or line 19 ma jastaii manually update garney duitaii same naii ho
 print("\n",d2)                       #yaha chai sachin pani add bhaye or update bhaye
+
+#yedi malai d2 baata main key like main name for example print garna paryo bhani
+
+print("\n",d2.keys())               #yesley main keys lai print garxa
+print("\n",d2.items())              #yesley chai key and items pairs ma print garxa
