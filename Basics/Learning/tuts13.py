@@ -1,3 +1,8 @@
+"""
+If else , else if conditions
+"""
+
+
 var1 = 26
 var2 = 54
 
