@@ -51,7 +51,9 @@ else:
 
 age = int(input("\nEnter your age: "))
 
-if age == 18:
+if age<10 or age>100:
+    print("Invalid age.")
+elif age == 18:
     print("We will think about you.")
 elif age>18:
     print("You can drive.")
