@@ -44,3 +44,14 @@ if key in list2:
     print(f"{key} is present in list")
 else:
     print(f"{key} is not present in list")
+
+
+
+#Driving License Qualification Test
+
+age = int(input("\nEnter your age: "))
+
+if age >= 18:
+    print("You can drive.")
+else:
+    print("You can't drive.")
