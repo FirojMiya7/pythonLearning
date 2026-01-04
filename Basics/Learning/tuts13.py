@@ -38,6 +38,8 @@ print("{var3} is less than {var2}")    ----> yesma print bhanda aagadi tab space
 list2 = [2,4,5,6,7,8,9]
 key = int(input("\nEnter any number to check in list: "))
 
+print(key not in list2)                                     #yesma chai list ma xaina bhaneko xa so boolean output --> True or False aaunxa if value maile 15 rakhey bhaney true aaunxa
+
 if key in list2:
     print(f"{key} is present in list")
 else:
