@@ -22,8 +22,12 @@ print("{var3} is less than {var2}")    ----> yesma print bhanda aagadi tab space
 """
 
 # #list check
+
 # list1 = [2,3,4,5,6,7,1,8,9,10]
-# if 11 in list1:
+
+# print("\n", 5 in list1)                                 #Boolean ma output dinxa true or false rw yo line ma chaii aahile -> True aaunxa
+
+# if 5 in list1:
 #     print("\nYes it is present in list")
 # else:
 #     print("\nNo it's not present in list")
