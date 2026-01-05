@@ -16,3 +16,17 @@ i=1
 while i<7:
     print("hello")
     i=i+1"""
+
+
+#Function
+
+def show():
+    print("yo function ho hai")
+
+show()                  #Show func lai call gareko
+
+
+def fact():
+    print("Hello")
+    return 2            #fucntion exit garney kaam garxa
+print(fact())
