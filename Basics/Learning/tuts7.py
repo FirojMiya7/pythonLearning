@@ -1,5 +1,8 @@
 #Variable
 
+a="This is Variables"
+print(a.center(75,"-"))
+
 var1 = "Hello World"
 var5 = "56"             #yo pani characeter string ho cuz duita double quote ko bhitra lekhiyeko xa ni tw
 var6 = "24"
