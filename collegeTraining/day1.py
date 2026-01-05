@@ -28,5 +28,6 @@ show()                  #Show func lai call gareko
 
 def fact():
     print("Hello")
-    return 2            #fucntion exit garney kaam garxa
+    return 2            #fucntion exit garney kaam garxa where python is interpreter -> line by line execution.
+    print("LCC")        #aaba yo print naii hudaina cuz return le exit garera function bahira lagyo and yo line execute hunai payena
 print(fact())
