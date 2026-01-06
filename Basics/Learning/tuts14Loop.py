@@ -65,7 +65,6 @@ for item in items:
 
 
 #While Loop
-
 """
 i=0
 while(i<15):
