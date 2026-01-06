@@ -65,3 +65,21 @@ for item in items:
 
 
 #While Loop
+
+"""
+i=0
+while(i<15):
+    print(i)                #infinite loop ma print o gari rakhxa until i use i=i+1;
+    i=i+1                   #o-14 samma print hunxa."""
+
+
+
+#While loop kati bela use garney tw?
+"""Kati choti loop chalxa thaha xaina
+Condition based kaam xa
+User input, file read, game loop jasto case"""
+
+#For loop kati bela use garney tw?
+"""List, tuple, string ma iterate garna
+Fixed range xa
+Counter use garna"""
