@@ -60,3 +60,8 @@ for item in items:
     if str(item).isnumeric() and int(item) > 6:                 #item lai str ma convert garxa  ani numeric value ho ki nai check garxa if ho bhani again int ma convert garera compare garxa ani print output
         print(item)
 """
+
+
+
+
+#While Loop
