@@ -10,24 +10,32 @@ n=18                    #My original number value which is hidden for user to gu
 #print number of guesses he took to finish
 #Game over
 
-guesses=0
-max_guesses=9
+guesses = 1
+max_guesses = 9
+won = False
 
-inp=int(input("\nGuess the number: "))
+inp = int(input("\nGuess the number: "))
 
-while(guesses!=max_guesses):
-    if inp<n:
+while guesses < max_guesses:
+    if inp < n:
         print("\nYour guess is smaller than the number")
-        guesses = guesses + 1
-        print(f"\nYou have {max_guesses - guesses} guesses left")
-        inp = int(input("\nGuess the number: "))
-    elif inp>n:
+    elif inp > n:
         print("\nYour guess is greater than the number")
-        guesses = guesses + 1
-        print(f"\nYou have {max_guesses - guesses} guesses left")
-        inp = int(input("\nGuess the number: "))
     else:
         print(f"\nYou guessed it right in {guesses} guesses")
+        won = True
         break
-    print("Game Over")
+    
+    guesses += 1
+    print(f"You have {max_guesses - guesses} guesses left")
+    inp = int(input("\nGuess the number: "))
+
+# Check final guess if loop ended naturally
+if not won and inp == n:
+    print(f"\nYou guessed it right in {guesses} guesses")
+    won = True
+
+if not won:
+    print(f"\nGame Over! The number was {n}")
+    print("Better luck next time!")
     
