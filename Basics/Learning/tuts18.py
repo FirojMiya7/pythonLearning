@@ -22,4 +22,13 @@ while(True):                                #only True use garera print garney h
 
 
 #Quiz
-
+#Write a program to take input from user till the input number is greater than 50
+"""
+while(True):
+    inp=int(input("\nEnter a number: "))
+    if inp>50:
+        print("\nCongrats you have entered a number greater than 50")
+        break
+    else:
+        print("\nTry again! Its smaller than 50")
+        continue"""
