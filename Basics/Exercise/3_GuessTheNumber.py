@@ -10,7 +10,7 @@ n=18                    #My original number value which is hidden for user to gu
 #print number of guesses he took to finish
 #Game over
 
-guesses=1
+guesses=0
 max_guesses=9
 
 inp=int(input("\nGuess the number: "))
@@ -26,9 +26,8 @@ while(guesses!=max_guesses):
         guesses = guesses + 1
         print(f"\nYou have {max_guesses - guesses} guesses left")
         inp = int(input("\nGuess the number: "))
-    elif inp==18:
+    else:
         print(f"\nYou guessed it right in {guesses} guesses")
         break
-    else:
-        print("Game Over")
+    print("Game Over")
     
