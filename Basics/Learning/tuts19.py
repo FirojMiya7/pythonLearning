@@ -26,14 +26,14 @@ for x in num:
 
 
 # Method 1 - int() then str() (complicated)
-
+"""
 num = int(input("Enter any number: "))
 num = str(num)
 
 index = 0
 while index < len(num):
     print(f"{index+1}:",num[index])
-    index += 1
+    index += 1"""
 
 
 # Method 2 - int() then str() (complicated)
