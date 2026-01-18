@@ -13,6 +13,18 @@ while index < len(num):
 
 #another method
 """
-num = input("Enter any number: ")
+num = input("Enter any number: ")           
 for x in num:
+    print(x)"""
+
+
+#aahile samma tw input ligda string ma lirathyo aaba maile integer ma lina paryo bhani k 
+# garney kasari change garney?
+
+
+
+# Method 2 - int() then str() (complicated)
+"""
+num = int(input("Enter any number: "))
+for x in str(num):
     print(x)"""
