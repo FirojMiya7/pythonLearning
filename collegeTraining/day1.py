@@ -10,7 +10,7 @@ print(type(a))"""
 
 """#for loop
 for i in range(1,11,1):
-    print(i)            #yo 1 dekhi 10 samma print garxa."""
+    print(i)            #yo 1 dekhi 10 samma print garxa.(last ko index lai exclude garxa)"""
 
 #While
 """
