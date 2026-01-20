@@ -30,10 +30,10 @@ while guesses < max_guesses:
     print(f"You have {max_guesses - guesses} guesses left")
     inp = int(input("\nGuess the number: "))
 
-# Check final guess if loop ended naturally
-if not won and inp == n:                #yaha samma tw won still false xa ni tw last guess ho yo.
-    print(f"\nYou guessed it right in {guesses} guesses")
-    won = True
+# # Check final guess if loop ended naturally
+# if not won and inp == n:                #yaha samma tw won still false xa ni tw last guess ho yo.
+#     print(f"\nYou guessed it right in {guesses} guesses")
+#     won = True
 
 if not won:
     print(f"\nGame Over! The number was {n}")
