@@ -81,7 +81,10 @@ def showScore(totalScore):
 questions = [
     ("What is the capital of Nepal?", "Kathmandu"),
     ("5 + 2 = ?", "7"),
-    ("What is the largest planet in our solar system?", "Jupiter")
+    ("What is the largest planet in our solar system?", "Jupiter"),
+    ("What is the chemical symbol for water?", "H2O"),
+    ("Who wrote 'Romeo and Juliet'?", "Shakespeare"),
+    ("What is the capital of United States?", "Washington, D.C."),
 ]
 
 totalScore = 0
