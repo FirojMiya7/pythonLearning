@@ -16,7 +16,7 @@ except Exception as e:
 
 
 # Using function to handle exceptions
-
+"""
 def get_number(msg):
     while True:
         try:
@@ -28,3 +28,4 @@ num1 = get_number("Enter first number: ")
 num2 = get_number("Enter second number: ")
 
 print("Sum =", num1 + num2)
+"""
