@@ -1,6 +1,6 @@
 # Read from a file
 """
-f = open("Basics/Learning/Feroz.txt", "r")
+f = open("Basics/Learning/Feroz.txt", "r")                  # yaha f bhaneko pointer ho file ko exactly pointer pani haina file handling garna ko lagi ho
 content = f.read()
 print(content)
 f.close()
