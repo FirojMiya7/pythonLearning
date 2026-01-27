@@ -25,8 +25,20 @@ print("Data appended successfully.\n")
 
 
 
+# Handle with both reading and writing mode.
+"""
+f = open("Basics/Learning/FirojMiya.txt", "r+")
+print(f.read())                       # Read the existing content
+f.write("Adding a new line at the end of the file.\n")   # Write new content
+f.close()
+print("File read and write operations completed successfully.\n")
+"""
+
+
+
 
 # To read the file, we need to open it in read mode
+# Read the Final file content
 """
 f = open("Basics/Learning/FirojMiya.txt", "r")
 print(f.read())
