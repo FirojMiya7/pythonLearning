@@ -1,6 +1,6 @@
 # Block 
 
-with open("Basics/Learning/Feroz.txt","r") as f:                    #with block le file automatically close garcha after the block ends
+with open("Basics/Learning/File/Feroz.txt","r") as f:                    #with block le file automatically close garcha after the block ends
 
     a = f.readline() 
     b = f.read(7)
