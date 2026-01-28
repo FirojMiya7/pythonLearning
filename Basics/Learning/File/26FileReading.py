@@ -1,6 +1,6 @@
 # Read from a file
 """
-f = open("Basics/Learning/Feroz.txt", "r")                  # yaha f bhaneko pointer ho file ko exactly pointer pani haina file handling garna ko lagi ho
+f = open("Basics/Learning/File/Feroz.txt", "r")                  # yaha f bhaneko pointer ho file ko exactly pointer pani haina file handling garna ko lagi ho
 content = f.read()
 print(content)
 f.close()
@@ -10,7 +10,7 @@ f.close()
 
 #Read specific number of characters
 """
-f = open("Basics/Learning/Feroz.txt", "r")
+f = open("Basics/Learning/File/Feroz.txt", "r")
 content = f.read(4)                 #Read first 4 characters
 print(content)
 
@@ -23,7 +23,7 @@ f.close()
 
 # Read line by line
 """
-f = open("Basics/Learning/Feroz.txt", "r")
+f = open("Basics/Learning/File/Feroz.txt", "r")
 
 #### Print All the characters line by line 
 
@@ -43,7 +43,7 @@ f.close()
 
 # Read line by line using readline()
 """
-f = open("Basics/Learning/Feroz.txt", "r")
+f = open("Basics/Learning/File/Feroz.txt", "r")
 print(f.readline(),)             # Read first line
 print(f.readline(), end="")      # Read second line --> end = "" is to avoid double new line
 print(f.readline(), end="")      # Read third line
@@ -54,7 +54,7 @@ f.close()
 
 #Read all lines using readlines()
 """
-f = open("Basics/Learning/Feroz.txt", "r")
+f = open("Basics/Learning/File/Feroz.txt", "r")
 
 # method 1
 # content = f.readlines()          # Read all lines and store them in a list
