@@ -40,3 +40,4 @@ number = int(input("Enter a number to find its factorial: "))
 
 print("Factorial using recursive method of",number,"is", factorial(number))
 """
+
