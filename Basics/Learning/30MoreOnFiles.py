@@ -1,5 +1,5 @@
 # Reading file pointer position using tell()
-
+"""
 f = open("Basics/Learning/Feroz.txt","r")
 
 print(f.tell())                 # At the beginning, pointer is at position 0 where tell() returns 0
@@ -12,3 +12,4 @@ print(f.seek(25))               # seek le file pointer lai specified position ma
 print(f.readline())
 
 f.close()
+"""
