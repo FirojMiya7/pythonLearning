@@ -1,6 +1,6 @@
 # Reading file pointer position using tell()
 """
-f = open("Basics/Learning/Feroz.txt","r")
+f = open("Basics/Learning/File/Feroz.txt","r")
 
 print(f.tell())                 # At the beginning, pointer is at position 0 where tell() returns 0
 print(f.readline())
