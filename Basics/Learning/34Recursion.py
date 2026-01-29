@@ -41,3 +41,4 @@ number = int(input("Enter a number to find its factorial: "))
 print("Factorial using recursive method of",number,"is", factorial(number))
 """
 
+#Note: Recursive functions should have a base case to avoid infinite recursion.
