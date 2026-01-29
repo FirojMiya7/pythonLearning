@@ -27,7 +27,9 @@ def getdate():
     import datetime
     return datetime.datetime.now()
 
-print("---------- Welcome to Health Management System ----------\n")
+# print("---------- Welcome to Health Management System ----------\n")
+
+print("-"*10, "Welcome to Health Management System", "-"*10, "\n")
 
 clientList = {1: "Feroz", 2: "Sushil", 3: "Trishan"}
 logList = {1: "Exercise", 2: "Diet"}
