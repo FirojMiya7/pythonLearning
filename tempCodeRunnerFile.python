@@ -1,17 +1,12 @@
-# MergeSort using Python..
-
-
-def MergeSort(arr):
-    if len(arr) <= 1:
+def mergeSort(arr):
+    if len(arr) <= 0:
         return arr
     
-    # Divide
     mid = len(arr) // 2
 
-    left = MergeSort(arr[:mid])
-    right = MergeSort(arr[mid:])
+    left = mergeSort(arr[:mid])
+    right = mergeSort(arr[mid:])
 
-    # Merge
     result = []
     i = j = 0
 
@@ -24,18 +19,16 @@ def MergeSort(arr):
             j += 1
 
     # Add remaining
+
     result.extend(left[i:])
     result.extend(right[j:])
 
-    # Final Return Result(Sort)
     return result
 
-#Test
-arr = [3, 2, 6, 8, 1]
+# Test
 
-print("The sorted array using merge is", MergeSort(arr))
+arr = [2,4,1,8,3,5]
 
+sortedArr = mergeSort(arr)
 
-# sortedArr = MergeSort(arr)
-# print("The sorted array using merge is", sortedArr)
-        
+print("The sorted array is", sortedArr)
