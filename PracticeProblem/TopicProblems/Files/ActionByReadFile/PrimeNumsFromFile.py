@@ -8,7 +8,7 @@ def primeCheck(num):
             return False
     return True
 
-with open("PracticeProblem/TopicProblems/Files/AverageCalculator/Marks.txt", "r") as file:
+with open("PracticeProblem/TopicProblems/Files/ActionByReadFile/Marks.txt", "r") as file:
     primeNumbers = []
 
     for line in file:

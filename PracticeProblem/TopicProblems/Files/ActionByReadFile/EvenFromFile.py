@@ -1,7 +1,7 @@
 # Even Numbers from File
 
 
-with open("PracticeProblem/TopicProblems/Files/AverageCalculator/Marks.txt", "r") as file:
+with open("PracticeProblem/TopicProblems/Files/ActionByReadFile/Marks.txt", "r") as file:
     evenNumbers = []
 
     for line in file:

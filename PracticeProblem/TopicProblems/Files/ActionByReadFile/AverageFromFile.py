@@ -6,7 +6,7 @@ Calculate average
 
 
 
-with open("PracticeProblem/TopicProblems/Files/AverageCalculator/Marks.txt", "r") as file:
+with open("PracticeProblem/TopicProblems/Files/ActionByReadFile/Marks.txt", "r") as file:
     totalMarks = 0
     count = 0
     for line in file:

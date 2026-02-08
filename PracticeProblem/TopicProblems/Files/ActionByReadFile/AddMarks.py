@@ -5,7 +5,7 @@ Calculate average
 """
 
 
-with open("PracticeProblem/TopicProblems/Files/AverageCalculator/Marks.txt", "a") as file:
+with open("PracticeProblem/TopicProblems/Files/ActionByReadFile/Marks.txt", "a") as file:
     while True:
         try:
             marks = int(input("Enter your Mark: "))
