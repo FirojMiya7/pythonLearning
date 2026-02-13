@@ -92,6 +92,38 @@ def AverageMarks():
         print("No Students file found. The file does not exist.\n")
         
         
+def GradeStudent():
+    try:
+        GradeRoll = int(input("\nEnter the roll number of the student to grade: "))
+        found = False
+        
+        with open("PracticeProblem/MiniProjects/StudentManagementSystem/Students.txt", "r") as file:
+            students = file.readlines()
+            for student in students:
+                name, roll, marks = student.strip().split(",")
+                if int(roll) == GradeRoll:
+                    marks = float(marks)            # Convert marks to float for comparison    
+                    if marks >= 90:
+                        grade = "A"
+                    elif marks >= 80:
+                        grade = "B"
+                    elif marks >= 70:
+                        grade = "C"
+                    elif marks >= 60:
+                        grade = "D"
+                    else:
+                        grade = "F"
+                    
+                    print(f"Student found: \nName: {name}, Roll: {roll}, Marks: {marks}, Grade: {grade}\n")
+                    found = True
+                    break
+        
+        if not found:
+            print(f"Student with roll number {GradeRoll} has not been found.\n")
+    except ValueError:
+        print("Error! Invalid input. Roll must be an integer.\n")
+        
+        
 def SearchStudent():
     try:
         SearchRoll = int(input("\nEnter the roll number of the student to search: "))
@@ -145,7 +177,8 @@ def main():
         print("4. Average Marks")
         print("5. Search Student")
         print("6. Update Student")
-        print("7. Exit\n")
+        print("7. Grade Student")
+        print("8. Exit\n")
         
         choice = int(input("Enter your choice: "))
         
@@ -162,6 +195,8 @@ def main():
         elif choice == 6:
             UpdateStudent()
         elif choice == 7:
+            GradeStudent()
+        elif choice == 8:
             print("\nExiting the system.\nThank you for using the Student Management System!\n")
             break
         else:
