@@ -1,4 +1,4 @@
-Project 3: Word Counter
+# Project 3: Word Counter
 
 Requirements:
 
