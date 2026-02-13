@@ -4,13 +4,13 @@
 """
 Student Management System - Menu-based program
 
-Features:
-1. Add Student (name, roll number, marks)
-2. View All Students
-3. Delete Student
-4. Calculate Average Marks
+Features (CRUD Operations):
+1. Create - Add Student (name, roll number, marks)
+2. Read - View All Students
+3. Update - Update Student Information
+4. Delete - Delete Student
 5. Search Student by Roll Number
-6. Update Student Information
+6. Calculate Average Marks
 7. Grade Student
 8. Exit
 
