@@ -2,20 +2,27 @@
 
 # Requirements:
 """
-Menu-based program
+Student Management System - Menu-based program
 
-# Options:
-Add student (name, roll, marks)
-View all students
-Exit
+Features:
+1. Add Student (name, roll number, marks)
+2. View All Students
+3. Delete Student
+4. Calculate Average Marks
+5. Search Student by Roll Number
+6. Update Student Information
+7. Grade Student
+8. Exit
 
-Store data in file
+Data Storage:
+- Student records stored in Students.txt file
+- Format: name,roll,marks
 
-# Use:
-functions
-loops
-try/except
-with-block
+Technologies Used:
+- Functions for modular code
+- Loops for iteration
+- Try/except for error handling
+- With-block for file operations
 """
 
 
