@@ -26,19 +26,19 @@ root.label = tk.Label(root, text="Add Student", font=("Arial", 14), bg="skyblue"
 root.label.pack(pady=10)
 root.configure(bg="skyblue")
 
-tk.Label(root, text="Student Name").pack()
+tk.Label(root, text="Student Name", bg="skyblue").pack()
 name_entry = tk.Entry(root)
 name_entry.pack()
 
-tk.Label(root, text="Roll Number").pack()
+tk.Label(root, text="Roll Number", bg="skyblue").pack()
 roll_entry = tk.Entry(root)
 roll_entry.pack()
 
-tk.Label(root, text="Marks").pack()
+tk.Label(root, text="Marks", bg="skyblue").pack()
 marks_entry = tk.Entry(root)
 marks_entry.pack()
 
-tk.Button(root, text="Add Student", command=add_student_gui).pack(pady=10)
+tk.Button(root, text="Add Student", bg="#0be394", command=add_student_gui).pack(pady=10)
 
 root.mainloop()
 
