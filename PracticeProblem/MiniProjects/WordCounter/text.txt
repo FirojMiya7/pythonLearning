@@ -1,0 +1,3 @@
+My name is Firoj Miya aka Feroz. 
+I am here to test this word counter program from file.
+This is text.txt file.
