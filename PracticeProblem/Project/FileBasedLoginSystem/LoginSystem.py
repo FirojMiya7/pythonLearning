@@ -21,7 +21,7 @@ def readCredentials(filename):
             credentials = {}
             for line in file:
                 username, password = line.strip().split(":")
-                username = username.lower()
+                username = username.lower()  # Convert username to lowercase for case-insensitive login
                 credentials[username] = password
             return credentials
     except FileNotFoundError:
