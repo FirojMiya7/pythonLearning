@@ -20,7 +20,7 @@ def readCredentials(filename):
         with open(filename, "r") as file:
             credentials = {}
             for line in file:
-                username, password = line.strip().split(":")
+                username, password = line.strip().split(":", 1)  # Split only on first colon
                 username = username.lower()  # Convert username to lowercase for case-insensitive login
                 credentials[username] = password
             return credentials
