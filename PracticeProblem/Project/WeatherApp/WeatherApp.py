@@ -17,18 +17,16 @@ Goal: API concept introduction
 import requests
 
 def fetchWeather(city):
-    apiKey = "f66db77dbdf448fc3b401eafc5154bab"  # OpenWeatherMap api key, you can get it for free by signing up on their website
-    url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&units=metric"
+    api_key = "f4eecc61fa25a17ed62ea79b432b44ca" 
+
+    url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     try:
         response = requests.get(url)
-        print("Status Code:", response.status_code)   # debug line
-        
         data = response.json()
-        print("Full Response:", data)   # debug line
 
         if response.status_code != 200:
-            print("Error:", data.get("message"))
+            print("Error:", data.get("message", "City not found"))
             return
 
         temp = data["main"]["temp"]
@@ -38,8 +36,8 @@ def fetchWeather(city):
         print(f"Temperature: {temp}°C")
         print(f"Humidity: {humidity}%")
 
-    except requests.exceptions.RequestException as e:
-        print("Request Error:", e)
+    except requests.exceptions.RequestException:
+        print("Network error. Please check your internet connection.")
 
 
 if __name__ == "__main__":
