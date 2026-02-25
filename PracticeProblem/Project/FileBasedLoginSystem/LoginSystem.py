@@ -21,6 +21,7 @@ def readCredentials(filename):
             credentials = {}
             for line in file:
                 username, password = line.strip().split(":")
+                username = username.lower()
                 credentials[username] = password
             return credentials
     except FileNotFoundError:
@@ -30,7 +31,7 @@ def readCredentials(filename):
 def login(credentials):
     while True:
         try:
-            username = input("Enter username: ")
+            username = input("Enter username: ").lower()
             password = input("Enter password: ")
             
             if not username or not password:
@@ -38,10 +39,10 @@ def login(credentials):
                 continue
             
             if username in credentials and credentials[username] == password:
-                print("Login successful!")
+                print("\n✓ Login successful!")
                 return True
             else:
-                print("Invalid username or password. Please try again.")
+                print("✗ Invalid username or password. Please try again.\n")
         except KeyboardInterrupt:
             print("\nLogin cancelled.")
             return False
@@ -50,6 +51,15 @@ def login(credentials):
 
 
 # Main execution
+
 if __name__ == "__main__":
-    credentials = readCredentials("credentials.txt")
-    login(credentials)
+    print("===== File-Based Login System =====")
+    credentials = readCredentials("PracticeProblem/Project/FileBasedLoginSystem/credentials.txt")
+    
+    if not credentials:
+        print("Error: credentials.txt not found!")
+    else:
+        if login(credentials):
+            print("\nWelcome to the system!")
+        else:
+            print("Login failed.")
