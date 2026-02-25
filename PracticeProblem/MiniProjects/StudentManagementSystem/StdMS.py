@@ -26,6 +26,7 @@ Technologies Used:
 """
 
 
+
 def AddStudent():
     try:
         name = input("\nEnter student name: ")
