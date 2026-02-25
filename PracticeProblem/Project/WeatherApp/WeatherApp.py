@@ -17,7 +17,7 @@ Goal: API concept introduction
 import requests
 
 def fetchWeather(city):
-    api_key = "f4eecc61fa25a17ed62ea79b432b44ca" 
+    api_key = "f4eecc61fa25a17ed62ea79b432b44ca"    # OpenWeatherMap API key, where you can sign up for a free key at https://openweathermap.org/api
 
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
