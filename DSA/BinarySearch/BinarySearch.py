@@ -26,3 +26,4 @@ if __name__ == "__main__":                  # if __name_ is "__main__" le code l
         print("Element not found in the array.")
     else:
         print(f"Element found at index: {result}")
+        
