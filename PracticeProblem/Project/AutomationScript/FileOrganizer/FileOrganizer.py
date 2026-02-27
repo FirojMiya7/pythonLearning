@@ -39,3 +39,17 @@ if __name__ == "__main__":                  # This line checks if the script is 
     main()
 
 
+# Explanation:
+"""
+So yesley chaii jun folder path user le input garcha, tyo folder vitra ko files haru lai type anusar organize garne script ho.
+- os module lai import gareko cha file and directory operations ko lagi.
+- shutil module lai import gareko cha file moving ko lagi.
+- User le folder path input garcha, ani check garincha ki tyo path valid directory ho ki hoina.
+- os.listdir() function le folder vitra ko files haru ko list return garcha.
+- os.path.join() function le folder path ra filename lai combine garera full file path banaucha.
+- os.path.isfile() function le check garcha ki tyo path file ho ki hoina.
+- filename.endswith() function le check garcha ki file ko extension ke ho, ani tyo anusar destination folder banaucha.
+- os.makedirs() function le destination folder banaucha, ani exist_ok=True le prevent garcha error if folder already exists.
+- shutil.move() function le file lai move garcha from original location to new location.
+- Finally, print statement le success message print garcha after organizing the files.
+"""
